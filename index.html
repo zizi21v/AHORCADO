@@ -1,0 +1,41 @@
+<!doctype HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahorcado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+         <img src="img/logo.png" alt="">
+      </div>
+      <div class="count-container">
+        <div class="count-container__message">
+          <h2>Vidas  = </h2> 
+        </div>
+        <div class="count-container__number" id='noIntentos'>
+          <h2>6</h2>  
+        </div>	
+      </div>
+    </header>
+    <main>
+      <div class="image">
+        <img src="img/a1.png" id='imagen' />
+      </div>
+      <div class="word-container" 
+           id="contenedorPalabra">
+        <div id="palabraSecreta" class="word-container__secret-word"></div>
+        <div id="botonJugar" class="word-container__button-replay">
+         <h3 > Jugar de Nuevo </h3>
+        </div>
+      </div>
+      <div class="keyboard" id="contenedorLetras">
+      </div>
+    </main>
+    <script src="script.js"></script>
+	</body>
+</html>
